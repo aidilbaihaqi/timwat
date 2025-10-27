@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #F6F3FA;
+  --background: #DFD6EF;
   --foreground: #36283E;
 }
 
@@ -25,6 +25,9 @@
   --color-voodoo-900: #4C3A59;
   --color-voodoo-950: #36283E;
 
+  /* Green accent color from Figma */
+  --color-accent-green: #a8e6cf;
+
   /* Alias primary -> voodoo */
   --color-primary-50: var(--color-voodoo-50);
   --color-primary-100: var(--color-voodoo-100);
@@ -39,12 +42,7 @@
   --color-primary-950: var(--color-voodoo-950);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #36283E;
-    --foreground: #F6F3FA;
-  }
-}
+
 
 body {
   background: var(--background);
